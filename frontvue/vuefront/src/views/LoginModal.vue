@@ -6,8 +6,6 @@
       <form @submit.prevent="handleSubmit(signIn)">
           <div class="container">    
           <img alt="SiteLogo" src="../assets/icon.png" class="icon"></img>
-          <!-- <br/>
-          <h4>마을 둘러보기</h4> -->
           </div>
           <ValidationProvider
         name="이메일" rules="required|email" v-slot="{errors}">
